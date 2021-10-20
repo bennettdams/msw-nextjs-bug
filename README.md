@@ -12,7 +12,7 @@
 
 3. Create a simple test file based on [Next's docs](https://nextjs.org/docs/testing#jest-and-react-testing-library):
 
-3. Install MSW and follow setup for mocks/handlers/server [via docs](https://nextjs.org/docs/testing#jest-and-react-testing-library):
+3. Install MSW and follow setup for mocks/handlers/server [via docs](https://mswjs.io/docs/getting-started/mocks):
 `npm install msw --save-dev`
 
 3. Integrate MSW with Jest
