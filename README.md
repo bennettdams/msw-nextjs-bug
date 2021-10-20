@@ -1,6 +1,12 @@
 # Reproduction repo for a probable bug with MSW & Next.js
 
-## Steps
+## To try it out
+
+`npm i`
+
+`npm run test`
+
+## Steps to reproduce from zero
 
 1. Install initial Create Next App with TypeScript
 `npx create-next-app@latest --use-npm --ts .`
