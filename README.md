@@ -16,3 +16,6 @@
 `npm install msw --save-dev`
 
 3. Integrate MSW with Jest
+
+3. Install and utilize `whatwg-fetch` - needed for Polyfill with Next.js
+`npm install -D whatwg-fetch` 
