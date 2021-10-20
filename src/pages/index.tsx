@@ -1,9 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    async function test() {
+      await fetch("https://jsonplaceholder.typicode.com/todos/1");
+    }
+    test();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>

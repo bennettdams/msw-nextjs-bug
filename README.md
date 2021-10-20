@@ -19,3 +19,7 @@
 
 3. Install and utilize `whatwg-fetch` - needed for Polyfill with Next.js
 `npm install -D whatwg-fetch` 
+
+3. Change server config to `onUnhandledRequest: "error"` and add some simple fetch execution in the tested component
+
+==> The test does not fail, even though the tests shows the error
